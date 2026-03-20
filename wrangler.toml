@@ -8,7 +8,7 @@ binding = "TEMP_MAIL_DB"
 database_name = "maill_free_db"
 database_id = "c82663ac-62b6-4ba6-be81-cbe297f2a3dd"
 
-# 环境变量（已注释，避免JSON解析错误）
+# 环境变量（已注释，避免 JSON 解析错误）
 [vars]
 # FORWARD_RULES='[{"prefix":"vip","email":"a@example.com"},{"prefix":"*","email":"2141083706@qq.com"}]'
 
@@ -17,7 +17,7 @@ database_id = "c82663ac-62b6-4ba6-be81-cbe297f2a3dd"
 directory = "public"
 binding = "ASSETS"
 
-# R2 存储桶绑定（已注释，绕过R2订阅限制）
+# R2 存储桶绑定（已注释，绕过 R2 订阅限制）
 # [[r2_buckets]]
 # binding = "MAIL_EML"
 # bucket_name = "mail-eml"
